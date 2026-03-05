@@ -5,7 +5,8 @@ import pytesseract
 from PIL import Image
 
 
-st.title("Reconocimiento óptico de Caracteres")
+st.title("Reconocimiento de textos")
+st.title("(Cuidado con la luz y posición de la imagen) :) ")
 
 img_file_buffer = st.camera_input("Toma una Foto")
 
